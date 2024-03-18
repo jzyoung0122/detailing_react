@@ -1,7 +1,7 @@
 const sgMail=require('@sendgrid/mail')
 
 require('dotenv').config()
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+sgMail.setApiKey("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")
 const express = require("express");
 const router = express.Router();
 
