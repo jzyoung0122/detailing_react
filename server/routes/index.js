@@ -230,7 +230,7 @@ module.exports=(app)=>{
               }
 
              sendMail()
-             textflow.sendSMS("61404537609", "There is a new booking! Check it on your website ASAP.")
+             textflow.sendSMS("61478618287", "There is a new booking! Check it on your website ASAP.")
              res.send({message:"success",flag:true})
 
         }else{
